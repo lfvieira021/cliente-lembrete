@@ -1,0 +1,24 @@
+{
+  "lembretes": [
+    {
+      "prioridade": "MEDIA",
+      "conteudo": "Estudar",
+      "id": 1
+    },
+    {
+      "prioridade": "ALTA",
+      "conteudo": "Fazer exame de sangue",
+      "id": 2
+    },
+    {
+      "prioridade": "BAIXA",
+      "conteudo": "Ir no shopping",
+      "id": 3
+    },
+    {
+      "conteudo": "Teste Edit",
+      "prioridade": "MEDIA",
+      "id": 5
+    }
+  ]
+}
