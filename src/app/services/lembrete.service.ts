@@ -2,12 +2,13 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Lembrete } from '../interfaces/lembrete';
+import { environment } from 'src/environments/environment';
 @Injectable({
   providedIn: 'root'
 })
 export class LembreteService {
 
-  lembreteUrl = 'http://localhost:3000/lembretes'
+  lembreteUrl = `${environment.baseUrl}`
 
   constructor(private http: HttpClient) { }
 
